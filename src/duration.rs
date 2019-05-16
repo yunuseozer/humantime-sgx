@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use std::fmt;
 use std::str::Chars;
 use std::time::Duration;
