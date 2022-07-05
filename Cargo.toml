@@ -15,7 +15,7 @@ exclude = ["/sgx/*"]
 
 [dependencies]
 quick-error = { git = "https://github.com/yunuseozer/quick-error-sgx", rev = "sgx_1.1.4" }
-sgx_tstd = { rev = "v1.1.4", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "v1.1.4-upgrade", git = "https://github.com/yunuseozer/incubator-teaclave-sgx-sdk.git", optional = true }
 
 [features]
 default = ["mesalock_sgx"]
